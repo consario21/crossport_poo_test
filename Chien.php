@@ -13,6 +13,7 @@ Class Chien{
 
     }
 
+    // display the dog information
     public function display_dog_info(){
         echo nl2br("Nom : {$this->name} - Age : {$this -> age} - Race : {$this -> race}\n");
     }
